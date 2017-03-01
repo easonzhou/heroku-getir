@@ -1,0 +1,29 @@
+{
+  "name": "heroku-getir",
+  "version": "1.0.0",
+  "description": "Sample application for the getir hackathon pre-selection",
+  "main": "bin/index.js",
+  "engines": {
+    "node": "6.10.0"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yengas/heroku-getir.git"
+  },
+  "keywords": [
+    "heroku",
+    "sample",
+    "nodejs",
+    "getir"
+  ],
+  "author": "Yengas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yengas/heroku-getir/issues"
+  },
+  "homepage": "https://github.com/Yengas/heroku-getir#readme"
+}
