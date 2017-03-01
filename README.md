@@ -10,7 +10,7 @@ This is a sample application coded for the pre-selection of a hackathon prepared
 Configurations related to the environment are stored in the [src/config.js](./src/config.js). This configurations contain the below fields and may be used to configure the application through environment variables.
 
 - `PORT` the port the rest api will start on. Default value is 8080.
-- `MONGODB_CONNECTION_STRING` the connection string to the database which will be used to query the records. 
+- `MONGODB_CONNECTION_STRING` the connection string to the database which will be used to query the records. Default value is the connection string supplied by the Getir pre-selection task description.
 
 ### Running Locally
 There is [Dockerfile](./Dockerfile) present at the root of this project. You can run the project locally by executing the following commands. If you would like to configure the project use another database, create an dotenv file like `development.env` and use the `--env-file` to point to this file while running `docker run` command.
