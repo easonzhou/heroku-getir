@@ -1,6 +1,8 @@
 # heroku-getir
 This is a sample application coded for the pre-selection of a hackathon prepared by Getir and BiTaksi. It exposes an api endpoint which queries a mongodb database to retrieve single record by a given key.
 
+This application can be tested at: [https://heroku-getir.herokuapp.com/getRecord](https://heroku-getir.herokuapp.com/getRecord).
+
 ## Assumptions
 - GET method is not allowed.
 - Given `key` cannot be empty and is atleast 1 character long.
