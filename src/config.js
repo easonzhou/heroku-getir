@@ -1,4 +1,6 @@
 module.exports = {
-  port: process.env.PORT || 80,
-  mongo: {}
+  port: process.env.PORT || 8080,
+  mongo: {
+    connection_string: process.env.MONGODB_CONNECTION_STRING || "mongodb://dbUser:dbPassword@ds155428.mlab.com:55428/getir-bitaksi-hackathon"
+  }
 };
